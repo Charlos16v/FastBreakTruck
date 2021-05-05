@@ -59,7 +59,7 @@
                         <archive>
                             <manifest>
                                 <addClasspath>true</addClasspath>
-                                <mainClass>edu.pingpong.mollap.App</mainClass>
+                                <mainClass>edu.pingpong.fastbreaktruck.App</mainClass>
                                 <classpathPrefix>dependency-jars/</classpathPrefix>
                             </manifest>
                         </archive>
