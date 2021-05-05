@@ -6,16 +6,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Breakfast {
-    private List<Item> items = new ArrayList<Item>();
+    private final List<Item> items = new ArrayList<Item>();
 
     public List<Item> getItems() {
         return items;
     }
 
-    public void addItem(Item item){
+    public void addItem(Item item) {
         getItems().add(item);
     }
-    
+
     public float getCost() {
         float cost = 0.0f;
         for (Item item : getItems()) {
