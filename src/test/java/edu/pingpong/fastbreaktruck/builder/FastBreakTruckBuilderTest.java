@@ -14,8 +14,10 @@ public class FastBreakTruckBuilderTest {
     }
 
     @Test
-    public void getCostTest() {
+    public void prepareEyeholesTurbulentJuiceTest() {
         Breakfast eyeholesTurbulentJuice = fastBreakTruckBuilder.prepareEyeholesTurbulentJuice();
+        Assert.assertEquals("Eyeholes", eyeholesTurbulentJuice.getItems().get(0).name());
+        Assert.assertEquals("TurbulentJuice", eyeholesTurbulentJuice.getItems().get(1).name());
         Assert.assertEquals(18.8, eyeholesTurbulentJuice.getCost(), 0.001);
     }
 }
