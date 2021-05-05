@@ -18,5 +18,10 @@ public class App {
         System.out.println("==== Smiggles With FleebJuice ====\n");
         smigglesFleebJuice.showItems();
         System.out.println("Total cost : " + smigglesFleebJuice.getCost() + "\n");
+
+        Breakfast prepareEyeholesTurbulentJuiceWithPlumbus = fastBreakTruckBuilder.prepareEyeholesTurbulentJuiceWithPlumbus();
+        System.out.println("==== Smiggles With FleebJuice ====\n");
+        prepareEyeholesTurbulentJuiceWithPlumbus.showItems();
+        System.out.println("Total cost : " + prepareEyeholesTurbulentJuiceWithPlumbus.getCost() + "\n");
     }
 }
